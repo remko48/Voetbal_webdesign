@@ -1,2 +1,0 @@
-# Voetbal_webdesign
-- stage
