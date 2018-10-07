@@ -1,40 +1,29 @@
-<?php require 'partials/head.php'; ?>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-10 offset-1">
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-3">Welkom</h1>
-                    <p class="lead">ADSD 2018 2019</p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="col-10 offset-1">
-            <h1>Add player</h1>
-            <form method="post" action="#">
-                <input type="text" name="playername">
-                <button type="submit">Submit</button>
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-            </form>
-            <h4>Users</h4>
-            <ul class="list-group">
-                <?php
-                foreach ($results as $items) {
-                    foreach ($items as $item => $value) {
-                        if ($item == 'fname') {
-                            echo "<li class='list-group-item'>" . ucfirst($value) . " </li>";
-                        }
-                    }
-                }
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-                ?>
-            </ul>
-        </div><!-- End div - user -->
-        <hr>
-        <div class="col-10 offset-1">
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
-        </div><!-- End div - class Player-->
-    </div> <!-- End div row -->
-</div> <!-- End container -->
-<?php require 'partials/foot.php'; ?>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+<?php
+
+
+
+?>
+
+</body>
+</html>
