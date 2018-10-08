@@ -168,7 +168,7 @@
 </div>
 <div id="id01" class="modal">
 
-    <form class="form-signin" action="index.view.php" method="post">
+    <form class="form-signin" action="home.view.php" method="post">
         <img class="mb-4" src="img/clublogo2.png" alt="" width="100" height="120">
         <h1 class="h3 mb-3 font-weight-normal">Inloggen</h1>
 
