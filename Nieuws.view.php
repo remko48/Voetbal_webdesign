@@ -69,6 +69,10 @@
 
     </div>
 
+    <footer class="container">
+        <p>&copy; Windesheim flevoland 2018-2018</p>
+    </footer>
+
 
 
 

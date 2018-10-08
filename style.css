@@ -9,10 +9,17 @@
     border-color: gold;
 }
 
+.btn-outline-success:active{
+    background-color: gold;
+    border-color: gold;
+}
+
 .btn-outline-success:hover{
     background-color: gold;
     border-color: gold;
 }
+
+
 
 .bg-jumbotron {
     background-image: url(img/voorpagina.jpg);
@@ -40,6 +47,12 @@
         margin-bottom: 2rem;
         background-color: #e9ecef;
         border-radius: .3rem;
+    }
+
+    footer {
+        text-align: center;
+        position: absolute;
+        bottom: 0;
     }
     *, ::after, ::before {
         box-sizing: border-box;

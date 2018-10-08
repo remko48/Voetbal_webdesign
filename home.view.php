@@ -59,10 +59,14 @@
         <div class="jumbotron bg-jumbotron">
             <h1 class="text-white">Welkom</h1>
             <p class="lead text-white"> <br/></p>
-            <p><a href="/Questions/Index" class="btn btn-primary btn-lg">Ga naar het forum &raquo;</a></p>
+            <p><a href="/Questions/Index" class="btn btn-primary btn-lg">Button</a></p>
         </div>
 
     </div>
+
+    <footer class="container">
+        <p>&copy; Windesheim flevoland 2018-2018</p>
+    </footer>
 
 
 
