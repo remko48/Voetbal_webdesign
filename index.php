@@ -140,6 +140,8 @@
     </style>
 </head>
 <body>
+
+
 <title>Signin Template for Bootstrap</title>
 
 <!-- Bootstrap core CSS -->
@@ -148,44 +150,34 @@
 <!-- Custom styles for this template -->
 <link href="signin.css" rel="stylesheet">
 </head>
-
+</body>
 <body class="text-center">
 
+
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+<h1></h1>
 
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 <div class = "container form-signin">
 
-    <?php
-    $msg = '';
 
-    if (empty($_POST['']) && !empty($_POST['username'])
-        && !empty($_POST['password'])) {
-
-        if ($_POST['username'] == 'tutorialspoint' &&
-            $_POST['password'] == '1234') {
-            $_SESSION['valid'] = true;
-            $_SESSION['timeout'] = time();
-            $_SESSION['username'] = 'tutorialspoint';
-
-            echo 'You have entered valid use name and password';
-        }else {
-            $msg = 'Wrong username or password';
-        }
-    }
-    ?>
 </div>
 <div id="id01" class="modal">
 
-    <form class="form-signin" action="index.view.php" method="POST">
-        <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    <form class="form-signin" action="index.view.php" method="post">
+        <img class="mb-4" src="img/clublogo2.png" alt="" width="100" height="120">
+        <h1 class="h3 mb-3 font-weight-normal">Inloggen</h1>
 
         <input type = "text" class = "form-control"
-               name = "username" placeholder = "Name"
+               name = "username" placeholder = "Gebruikersnaam"
                required autofocus></br>
         <input type = "password" class = "form-control"
-               name = "password" placeholder = "Password" required>
-        <input type="submit" class="btn btn-lg btn-primary btn-block" name="submit">
+               name = "password" placeholder = "Wachtwoord" required>
+        <input type="submit" value="Login" name="submit"/>
     </form>
 
 </div>
