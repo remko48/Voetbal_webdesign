@@ -13,7 +13,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="stefanstyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
@@ -27,13 +27,19 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="home.view.php">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Nieuws</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="nieuws.view.php">Nieuws</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Media</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="media.view.php">Media</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="carpoolen.view.php">Carpoolen</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="contact.view.php">Contact</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -49,15 +55,17 @@
 
 
     <div class="starter-template">
+        <h1>Nieuws</h1>
+        <!---
 
-        <div class="jumbotron bg-jumbotron">
-            <h1 class="text-white">Bootcamp</h1>
-            <p class="lead text-white">Welkom bij de bootcamp van de opleiding <br/>
-                AD Software Development van Windesheim Flevoland.<br/>
-                Leer hier vast HTML, CSS en JavaScript.<br/><br />
-                Heb je vragen? Stel ze in het forum.</p>
-            <p><a href="/Questions/Index" class="btn btn-primary btn-lg">Ga naar het forum &raquo;</a></p>
-        </div>
+        you can put some Nieuws here
+
+        --->
+
+        <?php
+
+        echo "Samantha";
+        ?>
 
     </div>
 
