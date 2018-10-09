@@ -25,8 +25,6 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 
 //prepare
-
-///Remko heb hier wat aangepast ik leg het later wel toe!
 $statement = $pdo->prepare('SELECT * FROM member WHERE email = :email AND password = :password');
 $statement->bindParam(':email',$email);
 $statement->bindParam(':password',$password);
