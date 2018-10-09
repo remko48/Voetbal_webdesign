@@ -4,7 +4,10 @@
 
 $dsn = 'mysql:host=127.0.0.1;dbname=voetbal';
 $username = "root";
-$password = "root";
+
+//Samantha password ""
+//Remko password "root"
+$password = "";
 
 try {
     $pdo = new PDO ($dsn,$username,$password);
@@ -18,12 +21,14 @@ try {
 //Query => zoekvraag naar de database
 
 //variables
-$username = $_POST['username'];
+$email = $_POST['email'];
 $password = $_POST['password'];
 
 //prepare
-$statement = $pdo->prepare('SELECT * FROM login WHERE username = :username AND password = :password');
-$statement->bindParam(':username',$username);
+
+///Remko heb hier wat aangepast ik leg het later wel toe!
+$statement = $pdo->prepare('SELECT * FROM member WHERE email = :email AND password = :password');
+$statement->bindParam(':email',$email);
 $statement->bindParam(':password',$password);
 
 //uitvoeren

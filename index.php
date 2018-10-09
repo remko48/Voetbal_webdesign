@@ -55,7 +55,7 @@
         <h1 class="h3 mb-3 font-weight-normal">Inloggen</h1>
 
         <input type = "text" class = "form-control"
-               name = "username" placeholder = "Gebruikersnaam"
+               name = "email" placeholder = "Email"
                required autofocus></br>
         <input type = "password" class = "form-control"
                name = "password" placeholder = "Wachtwoord" required>
