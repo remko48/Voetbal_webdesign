@@ -39,6 +39,11 @@ if(!empty($result)){
     echo "<pre>";
     print_r($result);
     echo "</pre>";
+    //set cookie for member email this is the email, cookie is remembered for 7 days
+    setcookie("member_email", $_POST['email'], time()+(7 * 24 * 60 * 60));
+    //set cookie for member password this is the password, cookie is remembered for 7 days
+    setcookie("member_password", $_POST['password'], time()+(7 * 24 * 60 * 60));
+
 
 header('Location: home.view.php');
 

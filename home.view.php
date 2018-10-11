@@ -19,6 +19,7 @@
 <body>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<!--   Samantha:link the logo-->
     <a class="navbar-brand" href="#"><img class="logo" src="img/clublogo2.png"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -42,7 +43,8 @@
                 <a class="nav-link" href="contact.view.php">Contact</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.php" id="uitloggen">Uitloggen</a>
+<!--                //Samantha: need to add the link for the rest of the pages-->
+                <a class="nav-link" href="check_out.php" id="uitloggen">Uitloggen</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
