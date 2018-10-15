@@ -24,7 +24,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body class="text-center">
 
@@ -48,7 +48,7 @@
     <div class="starter-template">
 
         <div class="jumbotron" >
-            <a class="navbar-brand" href="#"><img class="logo logo_uitloggen" src="img/clublogo2.png"/></a>
+            <a class="navbar-brand" href="#"><img class="logo logo_uitloggen" src="../img/clublogo2.png"/></a>
             <h1>Vaarwel</h1>
             <p>Je bent nu uitgelogd. Dankjewel en tot ziens.</p>
             <p><a href="check.view.php" class="btn btn-primary btn-lg">Inloggen</a></p>
@@ -75,6 +75,8 @@
 
 
 
+
+<a href="../index.php">Return</a>
 
 
 </body>

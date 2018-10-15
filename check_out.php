@@ -23,6 +23,6 @@ if (!empty($_SESSION['member_password'])) {
 }
 
 //goes to log out page
-header('Location: check_out.view.php');
+header('Location: views/check_out.view.php');
 
 

@@ -20,7 +20,7 @@ if($link!=-1){
 
     //WARNING replace localhost when upload on the cloud or the server!!!
     //Only works for localhost 7777 if you use another one you fail.
-    $msg = "Please click on this link to change your password. If you do not click this beautiful link it will expire in 2 days\n\n" . "http://localhost:7777/new_password.view.php?id=" . $link;
+    $msg = "Please click on this link to change your password. If you do not click this beautiful link it will expire in 2 days\n\n" . "http://localhost:7777/views/new_password.view.php?id=" . $link;
 // use wordwrap() if lines are longer than 70 characters
 $msg = wordwrap($msg,70);
 

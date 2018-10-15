@@ -2,6 +2,7 @@
 
 require 'core/QueryBuilder.php';
 
+
 //variables
 $email = $_POST['email'];
 $password = $_POST['password'];
@@ -22,7 +23,7 @@ if($Query_builder->checkEmailAndPassword($email, $password)){
     $_SESSION["member_password"] =  $_POST['password'];
 
 
-header('Location: home.view.php');
+header('Location: home.php');
 
     die;
 }else{

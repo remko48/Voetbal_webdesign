@@ -28,8 +28,8 @@
 
 
 
-<form class="form-signin form-password" action="forgot_password.php" method="post">
-    <img class="mb-4" src="img/clublogo2.png" alt="" width="100" height="120">
+<form class="form-signin form-password" action="../forgot_password.php" method="post">
+    <img class="mb-4" src="../img/clublogo2.png" alt="" width="100" height="120">
     <h1 class="h3 mb-3 font-weight-normal">Wachtwoord vergeten?</h1>
 
     <p>Vul hier je e-mail adres en klik op versturen</p>

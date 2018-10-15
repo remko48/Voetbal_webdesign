@@ -20,7 +20,7 @@
 <body class="text-center background">
 
 <?php
-require 'core/QueryBuilder.php';
+require '../core/QueryBuilder.php';
 $qb = new QueryBuilder();
 
 if ($qb->checkForgotPassIdentity($_GET['id'])):?>
@@ -39,7 +39,7 @@ if ($qb->checkForgotPassIdentity($_GET['id'])):?>
     ?>
 
     <form class="form-signin form-password" action="" method="post">
-        <img class="mb-4" src="img/clublogo2.png" alt="" width="100" height="120">
+        <img class="mb-4" src="../img/clublogo2.png" alt="" width="100" height="120">
         <h1 class="h3 mb-3 font-weight-normal">Nieuw wachtwoord</h1>
 
         <p>Vul hier je nieuwe wachtwoord en klik op versturen</p>

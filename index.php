@@ -17,7 +17,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="CSS/login.css">
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,7 +25,7 @@
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
+    <link href="CSS/signin.css" rel="stylesheet">
 
 
 </head>
@@ -40,9 +40,10 @@
 //if cookie is not empty then go to home.view.php
 if(!empty($_SESSION['member_email'])) {
     header('Location: home.view.php');
+
 } else{
     //if not go to check in
-    header('Location: check.view.php');
+    header('Location: views/check.view.php');
 }
 
 ?>
