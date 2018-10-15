@@ -1,5 +1,6 @@
 
 <?php
+//  require 'views/check.view.php';
 //require_once("connect.php");
 
 $dsn = 'mysql:host=127.0.0.1;dbname=voetbal';
@@ -7,7 +8,7 @@ $username = "root";
 
 //Samantha password ""
 //Remko password "root"
-$password = "";
+$password = "root";
 
 try {
     $pdo = new PDO ($dsn,$username,$password);
@@ -19,7 +20,6 @@ try {
 }
 
 //Query => zoekvraag naar de database
-
 //variables
 $email = $_POST['email'];
 $password = $_POST['password'];
@@ -45,7 +45,7 @@ if(!empty($result)){
     setcookie("member_password", $_POST['password'], time()+(7 * 24 * 60 * 60));
 
 
-header('Location: home.view.php');
+header('Location: home.php');
 
     die;
 }else{

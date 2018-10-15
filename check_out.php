@@ -5,7 +5,7 @@
  * Date: 9-10-2018
  * Time: 21:09
  */
-
+require 'views/check_out.view.php';
 
 //delete the cookie which set the email
 if (!empty($_COOKIE['member_email'])) {
@@ -19,5 +19,5 @@ if (!empty($_COOKIE['member_password'])) {
 }
 
 //goes to log out page
-header('Location: check_out.view.php');
+header('Location: views/check_out.view.php');
 

@@ -1,7 +1,3 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: remko
- * Date: 15-10-2018
- * Time: 11:34
- */
+require 'views/carpoolen.view.php';
+?>

@@ -1,7 +1,3 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: remko
- * Date: 15-10-2018
- * Time: 11:28
- */
+require 'views/nieuws.view.php';
+?>

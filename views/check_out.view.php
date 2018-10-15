@@ -16,7 +16,7 @@
 
 <h1>Je bent uitgelogd</h1>
 
-<a href="index.php">Return</a>
+<a href="../index.php">Return</a>
 
 
 </body>
