@@ -23,7 +23,7 @@
 
 
 .bg-jumbotron {
-    background-image: url(img/voorpagina.jpg);
+    background-image: url(../../img/voorpagina.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
