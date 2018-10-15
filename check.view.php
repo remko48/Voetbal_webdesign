@@ -54,11 +54,16 @@
         <h1 class="h3 mb-3 font-weight-normal">Inloggen</h1>
 
         <input type = "text" class = "form-control"
-               name = "email" placeholder = "Email"
+               name = "email" placeholder = "email"
                required autofocus></br>
         <input type = "password" class = "form-control"
                name = "password" placeholder = "Wachtwoord" required>
+
         <input type="submit" value="Login" class="btn btn-lg btn-primary btn-block" name="submit"/>
+        <!--- forgot password link-->
+            <?php
+                echo "<a href='forgot_password.view.php'>Wachtwoord vergeten</a>";
+            ?>
     </form>
 
 </div>

@@ -2,6 +2,10 @@
     background-color: #064b87!important;
 }
 
+.blue_navbar{
+    padding-bottom: 70px;
+}
+
 .btn-outline-success {
     color: gold;
     background-color: transparent;
@@ -33,6 +37,11 @@
 .logo {
     width: 70px;
     height: 70px;
+}
+
+.logo_uitloggen{
+    width: 100px;
+    height: 100px;
 }
 
 .starter-template{
