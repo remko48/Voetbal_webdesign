@@ -34,9 +34,13 @@
 
 <?php
 
-//if cookie is not empty then go to home.php
-if(!empty($_COOKIE['member_email'])) {
-    header('Location: home.php');
+//handig om NIET weg te halen
+//phpinfo(INFO_GENERAL);
+
+//if cookie is not empty then go to home.view.php
+if(!empty($_SESSION['member_email'])) {
+    header('Location: home.view.php');
+
 } else{
     //if not go to check in
     header('Location: views/check.view.php');
