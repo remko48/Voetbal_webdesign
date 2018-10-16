@@ -33,15 +33,11 @@
 <link href="../CSS/signin.css" rel="stylesheet">
 </head>
 </body>
-<body class="text-center">
+<body class="text-center" onload="loginload()">
 
 <h1></h1>
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-<div class = "container form-signin">
 
-
-</div>
 <div id="id01" class="modal">
 
     <form class="form-signin" action="../check.php" method="post">
@@ -62,7 +58,7 @@
             ?>
 <!-- Hier was een merge conflict (moet de paragraph weg of niet?) -->
       <p>
-            <a href="login.admin.php">Admin login</a>
+            <a href="../login.admin.php">Admin login</a>
         </p>
 <!-- end merge conflict-->
     </form>
@@ -70,13 +66,7 @@
 </div>
 
 <script>
-    // Get the modal
-    var modal = document.getElementById('id01');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
+    function loginload(){
+        document.getElementById('id01').style.display='block';
     }
 </script>

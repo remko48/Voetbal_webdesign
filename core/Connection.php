@@ -12,7 +12,7 @@ class Connection
     {
         $dsn = 'mysql:host=127.0.0.1;dbname=voetbal';
         $username = "root";
-        $password = "";
+        $password = "root";
 
         try {
             $pdo = new PDO ($dsn,$username,$password);
